@@ -57,6 +57,16 @@
                 <li class="nav-item {{ Request::is('catalogs') ? 'active' : '' }}">
                     <a class="nav-link text-center" href="{{ url('catalogs') }}"><b>Catalogs</b></a>
                 </li>
+                <li class="nav-item dropdown {{ str_contains(Request::url(), 'alumni') ? 'active' : '' }}">
+                    <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <b>Alumni <i class="fa fa-caret-down" aria-hidden="true"></i></b>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownLink">
+                        <a href="{{ url('alumni','directory') }}" class="dropdown-item">Our Alumni</a>
+                        <a href="{{ url('alumni','alumni-of-the-month') }}" class="dropdown-item">Alumni on Period</a>
+                        <a href="{{ url('alumni','list-alumni-of-the-month') }}" class="dropdown-item">Alumni and Senior on Period</a>
+                    </div>
+                </li>
                 <li class="nav-item dropdown {{ str_contains(Request::url(), 'about') ? 'active' : '' }}">
                     <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <b>About <i class="fa fa-caret-down" aria-hidden="true"></i></b>
@@ -65,10 +75,7 @@
                         <a href="{{ url('about', 'cimsa') }}" class="dropdown-item">CIMSA</a>
                         <a href="{{ url('about', 'our-team') }}" class="dropdown-item">Our Team</a>
                         <a href="{{ url('about', 'partners') }}" class="dropdown-item">Our Partners</a>
-                        <div class="dropdown-divider"></div>
-                        <a href="{{ url('about/alumni/directory') }}" class="dropdown-item">Our Alumni</a>
-                        <a href="{{ url('about/alumni/alumni-of-the-month') }}" class="dropdown-item">Alumni on Period</a>
-                        <a href="{{ url('about/alumni/list-alumni-of-the-month') }}" class="dropdown-item">Alumni and Senior on Period</a>
+                        {{-- <div class="dropdown-divider"></div> --}}
                     </div>
                 </li>
                 @if(!Auth::check())
@@ -86,11 +93,9 @@
 
                         {!! Form::close() !!}
                         <a href='' id="logout" class="dropdown-item">Logout</a>
-
                     </div>
                 </li>
                 @endif
-
             </ul>
         </div>
     </nav>
