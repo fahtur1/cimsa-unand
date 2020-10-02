@@ -11,6 +11,8 @@
 |
 */
 
+Auth::routes();
+
 Route::get('/', 'DashboardController@home');
 
 Route::group([
@@ -174,8 +176,4 @@ Route::group([
 ], function () {
     Auth::routes();
     Route::post('/customlogin', 'ResetController@customlogin');
-});
-
-Route::post('/login', function () {
-    echo 'yes';
 });
