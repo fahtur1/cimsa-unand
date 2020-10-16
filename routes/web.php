@@ -11,21 +11,26 @@
 |
 */
 
-Auth::routes();
 
-Route::get('/', 'DashboardController@home');
+Route::group([
+    'middleware' => 'web'
+], function () {
+    Auth::routes();
+    Route::get('/', 'DashboardController@home');
+    Route::post('/customlogin', 'ResetController@customlogin');
+});
 
 Route::group([
     'prefix' => 'about'
 ], function () {
-    Route::get('cimsa', function () {
+    Route::get('/cimsa', function () {
         $title = 'CIMSA';
         return view('about.about')->with(compact('title'));
     });
-    Route::get('partners', function () {
+    Route::get('/partners', function () {
         return view('about.partner');
     });
-    Route::get('our-team', function () {
+    Route::get('/our-team', function () {
         return view('our-team');
     });
 });
@@ -96,16 +101,17 @@ Route::group([
     });
 });
 
-Route::group([
-    'prefix' => 'catalogs'
-], function () {
-    Route::get('/', 'CatalogsController@showCatalogs');
-    Route::get('/detail/{id}', 'CatalogsController@showCatalogDetail')->name('catalogs.detail');
-});
+// Route::group([
+//     'prefix' => 'catalogs'
+// ], function () {
+//     Route::get('/', 'CatalogsController@showCatalogs');
+//     Route::get('/detail/{id}', 'CatalogsController@showCatalogDetail')->name('catalogs.detail');
+// });
 
 Route::group([
     'prefix' => 'admin',
-    'middleware' => ['admin']
+    'middleware' => ['admin'],
+    'as' => 'admin'
 ], function () {
     Route::get('/', 'DashboardController@index');
 
@@ -170,10 +176,3 @@ Route::group([
 });
 
 Route::post('/sendMsg', 'MessageController@store');
-
-Route::group([
-    'middleware' => 'web'
-], function () {
-    Auth::routes();
-    Route::post('/customlogin', 'ResetController@customlogin');
-});

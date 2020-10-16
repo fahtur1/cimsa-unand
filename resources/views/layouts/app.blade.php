@@ -54,9 +54,9 @@
                 <li class="nav-item {{ Request::is('standing-committees') ? 'active' : '' }}">
                     <a class="nav-link text-center" href="{{ url('/standing-committees') }}"><b>Standing Committees</b></a>
                 </li>
-                <li class="nav-item {{ Request::is('catalogs') ? 'active' : '' }}">
-                    <a class="nav-link text-center" href="{{ url('catalogs') }}"><b>Catalogs</b></a>
-                </li>
+                {{-- <li class="nav-item {{ Request::is('catalogs') ? 'active' : '' }}">
+                <a class="nav-link text-center" href="{{ url('catalogs') }}"><b>Catalogs</b></a>
+                </li> --}}
                 <li class="nav-item dropdown {{ str_contains(Request::url(), 'alumni') ? 'active' : '' }}">
                     <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <b>Alumni <i class="fa fa-caret-down" aria-hidden="true"></i></b>
