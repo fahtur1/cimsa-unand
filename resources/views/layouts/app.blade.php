@@ -45,28 +45,6 @@
                         <b>Home</b><span class="sr-only">(current)</span>
                     </a>
                 </li>
-                <li class="nav-item {{ Request::is('articles') ? 'active' : '' }}">
-                    <a class="nav-link text-center" href="{{ url('/articles') }}"><b>Articles</b></a>
-                </li>
-                <li class="nav-item {{ Request::is('activities') ? 'active' : '' }}">
-                    <a class="nav-link text-center" href="{{ url('/activities') }}"><b>Activities</b></a>
-                </li>
-                <li class="nav-item {{ Request::is('standing-committees') ? 'active' : '' }}">
-                    <a class="nav-link text-center" href="{{ url('/standing-committees') }}"><b>Standing Committees</b></a>
-                </li>
-                {{-- <li class="nav-item {{ Request::is('catalogs') ? 'active' : '' }}">
-                <a class="nav-link text-center" href="{{ url('catalogs') }}"><b>Catalogs</b></a>
-                </li> --}}
-                <li class="nav-item dropdown {{ str_contains(Request::url(), 'alumni') ? 'active' : '' }}">
-                    <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <b>Alumni <i class="fa fa-caret-down" aria-hidden="true"></i></b>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownLink">
-                        <a href="{{ url('alumni','directory') }}" class="dropdown-item">Our Alumni</a>
-                        <a href="{{ url('alumni','alumni-of-the-month') }}" class="dropdown-item">Alumni on Period</a>
-                        <a href="{{ url('alumni','list-alumni-of-the-month') }}" class="dropdown-item">Alumni and Senior on Period</a>
-                    </div>
-                </li>
                 <li class="nav-item dropdown {{ str_contains(Request::url(), 'about') ? 'active' : '' }}">
                     <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <b>About <i class="fa fa-caret-down" aria-hidden="true"></i></b>
@@ -77,6 +55,28 @@
                         <a href="{{ url('about', 'partners') }}" class="dropdown-item">Our Partners</a>
                         {{-- <div class="dropdown-divider"></div> --}}
                     </div>
+                </li>
+                <li class="nav-item dropdown {{ str_contains(Request::url(), 'alumni') ? 'active' : '' }}">
+                    <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <b>Alumni <i class="fa fa-caret-down" aria-hidden="true"></i></b>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownLink">
+                        <a href="{{ url('alumni','directory') }}" class="dropdown-item">Our Alumni</a>
+                        <a href="{{ url('alumni','alumni-of-the-month') }}" class="dropdown-item">Alumni on Period</a>
+                        <a href="{{ url('alumni','list-alumni-of-the-month') }}" class="dropdown-item">Alumni and Senior on Period</a>
+                    </div>
+                </li>
+                <li class="nav-item {{ Request::is('articles') ? 'active' : '' }}">
+                    <a class="nav-link text-center" href="{{ url('/articles') }}"><b>Articles</b></a>
+                </li>
+                <li class="nav-item {{ Request::is('activities') ? 'active' : '' }}">
+                    <a class="nav-link text-center" href="{{ url('/activities') }}"><b>Activities</b></a>
+                </li>
+                <li class="nav-item {{ Request::is('standing-committees') ? 'active' : '' }}">
+                    <a class="nav-link text-center" href="{{ url('/standing-committees') }}"><b>Standing Committees</b></a>
+                </li>
+                <li class="nav-item {{ Request::is('catalogs') ? 'active' : '' }}">
+                    <a class="nav-link text-center" href="{{ url('catalogs') }}"><b>Catalogs</b></a>
                 </li>
                 @if(!Auth::check())
                 <li class="nav-item ">
