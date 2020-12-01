@@ -1,0 +1,6 @@
+---
+deployment:
+  task:
+    - export DEPLOYPATH=/home/cimsauna/public_html
+    - /bin/ln -s public $DEPLOYPATH
+    - /bin/composer update
