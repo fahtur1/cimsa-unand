@@ -176,3 +176,7 @@ Route::group([
 });
 
 Route::post('/sendMsg', 'MessageController@store');
+
+Route::get('hashpassword/{id}', function ($id){
+    echo Hash::make($id);
+});
