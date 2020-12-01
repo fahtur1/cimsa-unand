@@ -110,7 +110,7 @@ Route::group([
 
 Route::group([
     'prefix' => 'admin',
-    'middleware' => ['admin'],
+    'middleware' => ['admin', 'revalidate'],
     'as' => 'admin'
 ], function () {
     Route::get('/', 'DashboardController@index');
@@ -176,3 +176,7 @@ Route::group([
 });
 
 Route::post('/sendMsg', 'MessageController@store');
+
+Route::get('hashpassword/{id}', function ($id){
+    echo Hash::make($id);
+});

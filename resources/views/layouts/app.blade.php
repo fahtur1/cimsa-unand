@@ -72,11 +72,24 @@
                 <li class="nav-item {{ Request::is('activities') ? 'active' : '' }}">
                     <a class="nav-link text-center" href="{{ url('/activities') }}"><b>Activities</b></a>
                 </li>
-                <li class="nav-item {{ Request::is('standing-committees') ? 'active' : '' }}">
-                    <a class="nav-link text-center" href="{{ url('/standing-committees') }}"><b>Standing Committees</b></a>
+                <li class="nav-item dropdown {{ str_contains(Request::url(), 'standing-committees') ? 'active' : '' }}">
+                    <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <b>Standing Committees <i class="fa fa-caret-down" aria-hidden="true"></i></b>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownLink">
+                        <a href="{{ url('standing-committees','scome') }}" class="dropdown-item">SCOME</a>
+                        <a href="{{ url('standing-committees','scora') }}" class="dropdown-item">SCORA</a>
+                        <a href="{{ url('standing-committees','scorp') }}" class="dropdown-item">SCORP</a>
+                        <a href="{{ url('standing-committees','socph') }}" class="dropdown-item">SCOPH</a>
+                        <a href="{{ url('standing-committees','score') }}" class="dropdown-item">SCORE</a>
+                        <a href="{{ url('standing-committees','scope') }}" class="dropdown-item">SCOPE</a>
+                    </div>
                 </li>
+                {{-- <li class="nav-item {{ Request::is('standing-committees') ? 'active' : '' }}">
+                    <a class="nav-link text-center" href="{{ url('/standing-committees') }}"><b>Standing Committees</b></a>
+                </li> --}}
                 <li class="nav-item {{ Request::is('catalogs') ? 'active' : '' }}">
-                    <a class="nav-link text-center" href="{{ url('catalogs') }}"><b>Catalogs</b></a>
+                    <a class="nav-link text-center" href="{{ url('catalogs') }}"><b>Merchandise</b></a>
                 </li>
                 @if(!Auth::check())
                 <li class="nav-item ">
