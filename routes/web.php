@@ -177,6 +177,6 @@ Route::group([
 
 Route::post('/sendMsg', 'MessageController@store');
 
-Route::get('hashpassword/{id}', function ($id){
-    echo Hash::make($id);
+Route::get('/foo', function () {
+    Artisan::call('storage:link');
 });
