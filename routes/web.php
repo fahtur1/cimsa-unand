@@ -101,12 +101,12 @@ Route::group([
     });
 });
 
-// Route::group([
-//     'prefix' => 'catalogs'
-// ], function () {
-//     Route::get('/', 'CatalogsController@showCatalogs');
-//     Route::get('/detail/{id}', 'CatalogsController@showCatalogDetail')->name('catalogs.detail');
-// });
+Route::group([
+    'prefix' => 'catalogs'
+], function () {
+    Route::get('/', 'CatalogsController@showCatalogs');
+    Route::get('/detail/{id}', 'CatalogsController@showCatalogDetail')->name('catalogs.detail');
+});
 
 Route::group([
     'prefix' => 'admin',
