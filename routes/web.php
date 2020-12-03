@@ -101,12 +101,12 @@ Route::group([
     });
 });
 
-// Route::group([
-//     'prefix' => 'catalogs'
-// ], function () {
-//     Route::get('/', 'CatalogsController@showCatalogs');
-//     Route::get('/detail/{id}', 'CatalogsController@showCatalogDetail')->name('catalogs.detail');
-// });
+Route::group([
+    'prefix' => 'catalogs'
+], function () {
+    Route::get('/', 'CatalogsController@showCatalogs');
+    Route::get('/detail/{id}', 'CatalogsController@showCatalogDetail')->name('catalogs.detail');
+});
 
 Route::group([
     'prefix' => 'admin',
@@ -177,6 +177,6 @@ Route::group([
 
 Route::post('/sendMsg', 'MessageController@store');
 
-Route::get('hashpassword/{id}', function ($id){
-    echo Hash::make($id);
+Route::get('/foo', function () {
+    Artisan::call('storage:link');
 });

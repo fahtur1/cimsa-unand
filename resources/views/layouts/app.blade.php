@@ -33,7 +33,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <a class="navbar-brand" href="/">
-            <img src="{{ asset('img/logo/logo-nav.png') }}">
+            <img src="{{ asset('img/logo/logo-cimsa.png') }}">
         </a>
         <button class=" navbar-toggle navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="border: none !important; color: #d00a2c;">
             <i class="fa fa-bars" aria-hidden="true"></i>
@@ -80,13 +80,13 @@
                         <a href="{{ url('standing-committees','scome') }}" class="dropdown-item">SCOME</a>
                         <a href="{{ url('standing-committees','scora') }}" class="dropdown-item">SCORA</a>
                         <a href="{{ url('standing-committees','scorp') }}" class="dropdown-item">SCORP</a>
-                        <a href="{{ url('standing-committees','socph') }}" class="dropdown-item">SCOPH</a>
+                        <a href="{{ url('standing-committees','scoph') }}" class="dropdown-item">SCOPH</a>
                         <a href="{{ url('standing-committees','score') }}" class="dropdown-item">SCORE</a>
                         <a href="{{ url('standing-committees','scope') }}" class="dropdown-item">SCOPE</a>
                     </div>
                 </li>
                 {{-- <li class="nav-item {{ Request::is('standing-committees') ? 'active' : '' }}">
-                    <a class="nav-link text-center" href="{{ url('/standing-committees') }}"><b>Standing Committees</b></a>
+                <a class="nav-link text-center" href="{{ url('/standing-committees') }}"><b>Standing Committees</b></a>
                 </li> --}}
                 <li class="nav-item {{ Request::is('catalogs') ? 'active' : '' }}">
                     <a class="nav-link text-center" href="{{ url('catalogs') }}"><b>Merchandise</b></a>
@@ -130,63 +130,95 @@
                     <p class="m-0 text-white">Official Partners :</p>
                     <div class="row text-center">
                         <div class="col-md-3">
-                            <img src="{{ asset('img/official-partners/bcc-logo.png') }}" alt="BCC LOGO" class="img-fluid">
+                            <img src="{{ asset('img/official-partners/singgalang.png') }}" alt="BCC LOGO" class="img-fluid">
                         </div>
                         <div class="col-md-3">
                             <a href="{{ url('https://instagram.com/jooksjuicebar/') }}" target="_blank">
-                                <img src=" {{ asset('img/official-partners/jooks.png') }}" alt="JOOKS LOGO" class="img-fluid">
+                                <img src=" {{ asset('img/official-partners/nirwana.png') }}" alt="JOOKS LOGO" class="img-fluid">
                             </a>
                         </div>
                         <div class="col-md-3">
                             <a href="{{ url('http://malala-tours.com/') }}" target="_blank">
-                                <img src=" {{ asset('img/official-partners/malala.png') }}" alt="MALALA LOGO" class="img-fluid">
+                                <img src=" {{ asset('img/official-partners/bcc.png') }}" alt="MALALA LOGO" class="img-fluid">
                             </a>
                         </div>
                         <div class="col-md-3">
                             <a href="{{ url('https://instagram.com/_thekafe/') }}" target="_blank">
-                                <img src=" {{ asset('img/official-partners/thekafe.png') }}" alt="THE KAFE LOGO" style="width: 100%; height: auto;">
+                                <img src=" {{ asset('img/official-partners/starradio.jpg') }}" alt="THE KAFE LOGO" class="img-fluid">
                             </a>
                         </div>
                         <div class="col-md-3">
                             <a href="{{ url('http://starradiopadang.com/') }}" target="_blank">
-                                <img src=" {{ asset('img/official-partners/star-radio.png') }}" alt="STAR RADIO" style="width: 100%; height: auto;">
+                                <img src="{{ asset('img/official-partners/clayton.png') }}" alt="STAR RADIO" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="{{ url('http://starradiopadang.com/') }}" target="_blank">
+                                <img src="{{ asset('img/official-partners/hoya.png') }}" alt="STAR RADIO" class="img-fluid">
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h5 class="text-right">
-                        {{-- <span class="fa-stack fa-lg img-animated-footer"> --}}
-                        <span class="fa-stack fa-lg">
-                            <a href="https://www.facebook.com/cimsafkunand" target="_blank">
-                                <i class="fa fa-circle fa-stack-2x logo-fb"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </a>
-                        </span>
+                    <h5 class="">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <span class="fa-stack fa-lg">
+                                    <a href="https://www.facebook.com/cimsafkunand" target="_blank">
+                                        <i class="fa fa-circle fa-stack-2x logo-fb"></i>
+                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="col-md-2">
+                                <span class="fa-stack fa-lg">
+                                    <a href="https://twitter.com/cimsaunand" target="_blank">
+                                        <i class="fa fa-circle fa-stack-2x logo-twitter"></i>
+                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="col-md-2">
+                                <span class="fa-stack fa-lg">
+                                    <a href="https://www.instagram.com/cimsaunand/" target="_blank">
+                                        <i class="fa fa-circle fa-stack-2x logo-instagram"></i>
+                                        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="col-md-2">
+                                <span class="fa-stack fa-lg">
+                                    <a href="https://www.youtube.com/channel/UCnSEulZ2b1Rtlb8USFDjGrA" target="_blank">
+                                        <i class="fa fa-circle fa-stack-2x logo-youtube"></i>
+                                        <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="col-md-2">
+                                <span class="fa-stack fa-lg">
+                                    <a href="https://open.spotify.com/show/6MT0oIX0eZPQPRJ8Ut9ajY" target="_blank">
+                                        <i class="fa fa-circle fa-stack-2x logo-spotify"></i>
+                                        <i class="fa fa-spotify fa-stack-1x fa-inverse"></i>
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="col-md-2">
+                                {{-- <span class="fa-stack fa-lg img-animated-footer"> --}}
+                                <span class="fa-stack fa-lg">
+                                    <a href="https://issuu.com/cimsaunand" target="_blank">
+                                        <img class="img-fluid" src="{{ asset('img/logo/isu.png') }}" alt="">
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="col-md-2">
+                                <span class="fa-stack fa-lg">
+                                    <a href="https://issuu.com/cimsaunand" target="_blank">
+                                        <img class="img-fluid" src="{{ asset('img/logo/line.png') }}" alt="">
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
 
-                        {{-- <span class="fa-stack fa-lg img-animated-footer"> --}}
-                        <span class="fa-stack fa-lg">
-                            <a href="https://twitter.com/cimsaunand" target="_blank">
-                                <i class="fa fa-circle fa-stack-2x logo-twitter"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </a>
-                        </span>
-
-                        {{-- <span class="fa-stack fa-lg img-animated-footer"> --}}
-                        <span class="fa-stack fa-lg">
-                            <a href="https://www.instagram.com/cimsaunand/" target="_blank">
-                                <i class="fa fa-circle fa-stack-2x logo-instagram"></i>
-                                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                            </a>
-                        </span>
-
-                        {{-- <span class="fa-stack fa-lg img-animated-footer"> --}}
-                        <span class="fa-stack fa-lg">
-                            <a href="https://www.youtube.com/channel/UCnSEulZ2b1Rtlb8USFDjGrA" target="_blank">
-                                <i class="fa fa-circle fa-stack-2x logo-youtube"></i>
-                                <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
-                            </a>
-                        </span>
                     </h5>
                 </div>
             </div>

@@ -13,7 +13,7 @@
 
     <section class="section-2 section-about container">
         <div class="image-about img-animated-section2" style="text-align: center;">
-            <img src="{{ asset('img/logo_score_rgb.png') }}" 
+            <img src="{{ asset('img/sco/score.png') }}" 
             alt="CIMSA LOGO" style="width: 100%; height: auto;" class="img-responsive">
         </div>
         <br>

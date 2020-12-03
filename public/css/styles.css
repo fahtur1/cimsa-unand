@@ -132,7 +132,7 @@ nav ul li a:hover:after {
 .navbar-brand>img {
     height: 90px;
     padding: 15px;
-    width: 90px;
+    width: auto;
 }
 
 .navbar>li>a {
@@ -462,6 +462,10 @@ footer {
 
 .logo-youtube {
     color: #db4437;
+}
+
+.logo-spotify {
+    color: #1ED760;
 }
 
 .modal {
