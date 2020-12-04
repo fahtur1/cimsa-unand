@@ -212,7 +212,7 @@
                             </div>
                             <div class="col-md-2">
                                 <span class="fa-stack fa-lg">
-                                    <a href="https://issuu.com/cimsaunand" target="_blank">
+                                    <a href="https://lin.ee/ac3QFtC" target="_blank">
                                         <img class="img-fluid" src="{{ asset('img/logo/line.png') }}" alt="">
                                     </a>
                                 </span>

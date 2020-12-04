@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/cimsauna/public_html
-    - /bin/ln -s $(pwd)/public $DEPLOYPATH
+    - /bin/mv $(pwd)/public/* $DEPLOYPATH
+    - /bin/mv $(pwd)/public/.* $DEPLOYPATH
+    - /bin/rmdir $(pwd)/public
