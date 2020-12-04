@@ -8,7 +8,7 @@
     <meta name="author" content="Miqdad and Raihan">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>CIMSA UNAND</title>
+    <title>CIMSA Unand</title>
     <link rel="shortcut icon" href="{{ asset('img/logo/logo-primary.png') }}">
     <link rel="stylesheet" href="{{ asset('/vendor/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('/vendor/font-awesome/css/font-awesome.min.css') }}">
