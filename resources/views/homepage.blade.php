@@ -35,12 +35,12 @@
     <div class="container">
         <div class="content-about img-animated-section2">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-7 text-justify">
                     <h1 class="shadow"><b>WHO ARE WE ?</b></h1><br>
-                    CIMSA is a Center for Indonesian Medical Students' Activities (CIMSA) is a non-profit and non government organization that is independent, nationalist, non-political and non partisan with activity based programs. Through its vision, "Empowering Medical Students, Improving Nation's Health", CIMSA provides chances and experiences for medical students to express their opinions and idealisms through their activities that will bring out evident results for Indonesia, especially in the medical field.<br><br>
+                    Center for Indonesian Medical Students' Activities (CIMSA) is a non-profit and non government organization that is independent, nationalist, non-political and non partisan with activity based programs. Through its vision, "Empowering Medical Students, Improving Nation's Health", CIMSA provides chances and experiences for medical students to express their opinions and idealisms through their activities that will bring out evident results for Indonesia, especially in the medical field.<br><br>
                 </div>
                 <div class="col-md-5">
-                    <img src="{{ asset('img/home/whoarewe.jpg') }}" alt="" class="img-fluid">
+                    <img src="{{ asset('img/home/whoarewe.JPG') }}" alt="" class="img-fluid">
                 </div>
             </div>
             <br><br>
@@ -48,9 +48,9 @@
                 <div class="col-md-5">
                     <img src="{{ asset('img/home/history.JPG') }}" alt="" class="img-fluid">
                 </div>
-                <div class="col-md-7 ml-auto text-right">
+                <div class="col-md-7 ml-auto text-justify">
                     <h1><b>HISTORY</b></h1><br>
-                    CIMSA was officially established in May, 6th 2001 by some medical students from various city of Indonesia based on the inclination for an organization that based on ongoing activities; utilize the developing technology, with internationally standard programs to support medical students in Indonesia CIMSA held its first General Assembly at May, 11-13 2001 and become affiliation with International Federation of Medical Students’ Associations (IFMSA) in 2002. Now, CIMSA has 26 locals spread in various Faculty of Medicine throughout Indonesia and continues to grow.
+                    <span>CIMSA was officially established in May 6, 2001 by some medical students from various city of Indonesia based on the inclination for an organization that based on ongoing activities; utilize the developing technology, with internationally standard programs to support medical students in Indonesia CIMSA held its first General Assembly at May 11-13, 2001  and become affiliation with International Federation of Medical Students’ Associations (IFMSA) in 2002. Now, CIMSA has 27 locals spread in various Faculty of Medicine throughout Indonesia and continues to grow.</span>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
                 <br>
                 <h4>
                     <b>
-                        <span class="counter" data-count="26">0</span>
+                        <span class="counter" data-count="27">0</span>
                         <p> LOCALS</p>
                     </b>
                 </h4>
@@ -81,7 +81,7 @@
                 <br>
                 <h4>
                     <b>
-                        <span class="counter" data-count="900">500</span><span>+</span>
+                        <span class="counter" data-count="1000">500</span><span>+</span>
                         <p>PROJECTS</p>
                     </b>
                 </h4>

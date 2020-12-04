@@ -15,11 +15,11 @@
                 <img src="{{ asset('img/logo/logo-primary.png') }}" alt="CIMSA LOGO" class="mx-auto d-block">
             </div>
             <p style="text-align: justify;">
-                <span>HISTORY</span><br>CIMSA was officially established in May, 6th 2001 by some medical students from various city of Indonesia based
+                <span>HISTORY</span><br>CIMSA was officially established in May 6, 2001 by some medical students from various city of Indonesia based
                 on the inclination for an organization that based on ongoing activities; utilize the developing technology,
                 with internationally standard programs to support medical students in Indonesia CIMSA held its first General
-                Assembly at May, 11-13 2001 and become affiliation with International Federation of Medical Students’ Associations
-                (IFMSA) in 2002. Since then, CIMSA has 21 locals spread in various Faculty of Medicine throughout Indonesia
+                Assembly at May 11-13, 2001 and become affiliation with International Federation of Medical Students’ Associations
+                (IFMSA) in 2002. Since then, CIMSA has 27 locals spread in various Faculty of Medicine throughout Indonesia
                 and continues to grow. <br><br>
                 <span>VISION</span><br>“To empower Indonesia medical students in order to create a healthier, more
                 secure and more prosperous Indonesia where people can enjoy equal opportunities in education and health and

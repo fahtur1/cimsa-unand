@@ -155,6 +155,72 @@
             </div>
         </div>
 
+        <div class="col-md-4">
+            <div class="team-container">
+                <a href="{{ asset('img/our-team-2/13.jpg') }}" data-fancybox="gallery" data-caption="Admin Team">
+                    <img src="{{ asset('img/our-team-2/13.jpg') }}" alt="Admin Team" class="rounded mx-auto d-block img-thumbnail image-ot">
+                    <div class="overlay">
+                        <div class="text-ot">LCME Team</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="team-container">
+                <a href="{{ asset('img/our-team-2/14.jpg') }}" data-fancybox="gallery" data-caption="Admin Team">
+                    <img src="{{ asset('img/our-team-2/14.jpg') }}" alt="Admin Team" class="rounded mx-auto d-block img-thumbnail image-ot">
+                    <div class="overlay">
+                        <div class="text-ot">LCROP Team</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="team-container">
+                <a href="{{ asset('img/our-team-2/15.jpg') }}" data-fancybox="gallery" data-caption="Admin Team">
+                    <img src="{{ asset('img/our-team-2/15.jpg') }}" alt="Admin Team" class="rounded mx-auto d-block img-thumbnail image-ot">
+                    <div class="overlay">
+                        <div class="text-ot">LPC Team</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="team-container">
+                <a href="{{ asset('img/our-team-2/16.jpg') }}" data-fancybox="gallery" data-caption="Admin Team">
+                    <img src="{{ asset('img/our-team-2/16.jpg') }}" alt="Admin Team" class="rounded mx-auto d-block img-thumbnail image-ot">
+                    <div class="overlay">
+                        <div class="text-ot">LCORA Team</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="team-container">
+                <a href="{{ asset('img/our-team-2/17.jpg') }}" data-fancybox="gallery" data-caption="Admin Team">
+                    <img src="{{ asset('img/our-team-2/17.jpg') }}" alt="Admin Team" class="rounded mx-auto d-block img-thumbnail image-ot">
+                    <div class="overlay">
+                        <div class="text-ot">LCRE Team</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="team-container">
+                <a href="{{ asset('img/our-team-2/18.jpg') }}" data-fancybox="gallery" data-caption="Admin Team">
+                    <img src="{{ asset('img/our-team-2/18.jpg') }}" alt="Admin Team" class="rounded mx-auto d-block img-thumbnail image-ot">
+                    <div class="overlay">
+                        <div class="text-ot">LEC Team</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
     </div>
 </section>
 
