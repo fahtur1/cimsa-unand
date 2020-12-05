@@ -41,7 +41,7 @@ Route::group([
     Route::get('/', function () {
         return view('about.alumni');
     });
-    Route::get('/alumni-of-the-month', 'AlumniController@showAlumniOfTheMonth');
+    // Route::get('/alumni-of-the-month', 'AlumniController@showAlumniOfTheMonth');
     Route::get('/list-alumni-of-the-month', 'AlumniController@showNews');
     Route::get('/directory', 'AlumniController@showAlumni');
 });

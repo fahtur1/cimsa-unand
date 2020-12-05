@@ -62,7 +62,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownLink">
                         <a href="{{ url('alumni','directory') }}" class="dropdown-item">Our Alumni</a>
-                        <a href="{{ url('alumni','alumni-of-the-month') }}" class="dropdown-item">Alumni on Period</a>
+                        {{-- <a href="{{ url('alumni','alumni-of-the-month') }}" class="dropdown-item">Alumni on Period</a> --}}
                         <a href="{{ url('alumni','list-alumni-of-the-month') }}" class="dropdown-item">Alumni and Senior on Period</a>
                     </div>
                 </li>
@@ -123,7 +123,7 @@
                     <p class="m-0 text-white">Local Secretariat: </p>
                     <p class="m-0 text-white">Faculty of Medicine, Andalas University</p>
                     <p class="m-0 text-white">Limau Manis, Pauh, Padang 25175</p>
-                    <p class="m-0 text-white">Copyright &copy; CIMSA UNAND {{ date('Y') }}</p>
+                    <p class="m-0 text-white">Copyright &copy; CIMSA Unand {{ date('Y') }}</p>
                 </div>
                 <div class="col-md-4 mx-4">
                     <p class="m-0 text-white">Official Partners :</p>
@@ -132,27 +132,27 @@
                             <img src="{{ asset('img/official-partners/singgalang.png') }}" alt="BCC LOGO" class="img-fluid">
                         </div>
                         <div class="col-md-4">
-                            <a href="{{ url('https://instagram.com/jooksjuicebar/') }}" target="_blank">
+                            <a target="_blank">
                                 <img src=" {{ asset('img/official-partners/nirwana.png') }}" alt="JOOKS LOGO" class="img-fluid">
                             </a>
                         </div>
                         <div class="col-md-4">
-                            <a href="{{ url('http://malala-tours.com/') }}" target="_blank">
+                            <a target="_blank">
                                 <img src=" {{ asset('img/official-partners/bcc.png') }}" alt="MALALA LOGO" class="img-fluid">
                             </a>
                         </div>
-                        <div class="col-md-4">
-                            <a href="{{ url('https://instagram.com/_thekafe/') }}" target="_blank">
-                                <img src=" {{ asset('img/official-partners/starradio.jpg') }}" alt="THE KAFE LOGO" class="img-fluid">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <a target="_blank">
+                                <img src=" {{ asset('img/official-partners/starradio.jpg') }}" alt="THE KAFE LOGO" class="img-fluid ">
                             </a>
                         </div>
                         <div class="col-md-4">
-                            <a href="{{ url('http://starradiopadang.com/') }}" target="_blank">
+                            <a target="_blank">
                                 <img src="{{ asset('img/official-partners/clayton.png') }}" alt="STAR RADIO" class="img-fluid">
                             </a>
                         </div>
                         <div class="col-md-4">
-                            <a href="{{ url('http://starradiopadang.com/') }}" target="_blank">
+                            <a target="_blank">
                                 <img src="{{ asset('img/official-partners/hoya.png') }}" alt="STAR RADIO" class="img-fluid">
                             </a>
                         </div>

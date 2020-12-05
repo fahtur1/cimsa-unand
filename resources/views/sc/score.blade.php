@@ -24,23 +24,23 @@
                 </span>
             </h4>
             <hr>
-            <p style="text-align: justify;">
-                <span>HISTORY</span><br>SCORE involves than 70 active National Member Organizations, offering over 2800 research 
+            <p class="text-justify">
+                <span>HISTORY</span><br>SCORE involves than 82 active National Member Organizations, offering over 2800 research 
                 projects to provide more than 1800 medical students worldwide the opportunity to participate in IFMSA research exchange
                 program and learn the basic principles of medical research such as literature studies, collecting data, scientific writing,
-                lab work, statistics and ethical aspects related to the medicine.<br><br>
-                <span>GOALS</span><br>1. To provide research projects in medical curricula in order enabling medical students worldwide to take 
+                lab work, statistics, and ethical aspects related to the medicine.<br><br>
+                <span>GOALS</span><br>1. To provide research projects in medical curriculum in order enabling medical students worldwide to take 
                 responsibility for their own curriculum according to their personal interests and to introduce them to basic principles of medical
                 research. <br>2. To increase the mobility and widen the horizon of medical students worldwide providing them with the possibility to 
-                experince different approaches in medical research, education and treatement by partaking in research projects in other countries. <br>
-                3. To enhance the academic quality of the medical student curricula and achieve educational benefits of practical and theoretical knowladge
-                in the field of medical research either on basic science of on clinical science with / without lab work. <br> 4. To facilitate collaboration
+                experience different approaches in medical research, education, and treatement by partaking in research projects in other countries. <br>
+                3. To enhance the academic quality of the medical student curriculum and achieve educational benefits of practical and theoretical knowledge
+                in the field of medical research either on basic science of clinical science with/without lab work. <br> 4. To facilitate collaboration
                 and partnership between different medical universities/schools, research institutions and allied medical students across the globe in order to 
                 share and spread new achivements in the field of medical research. <br>5. To maintain affordable research exchange tuition through its governing
-                body to insure the medical students within the different IFMS NMOs accross the world can participate in this IFMSA program without incurring a financial
+                body to insure the medical students within the different IFMSA NMOs accross the world can participate in this IFMSA program without incurring a financial
                 burden.<br><br>
-                <span>MISSION</span><br>"<i>To offer future physicians an opportunity to experience research work and the diversity of countries all over the world
-                    . Also, to develop both culturally sensitive students and skilled researchers intent on shapng the world of science in the upcoming future.</i>"<br><br>
+                <span>MISSION</span><br>"To offer future physicians an opportunity to experience research work and the diversity of countries all over the world
+                    . Also, to develop both culturally sensitive students and skilled researchers intent on shaping the world of science in the upcoming future."<br><br>
             </p>
         </div>
     </section>
