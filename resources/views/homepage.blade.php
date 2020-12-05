@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-md-7 ml-auto text-justify">
                     <h1><b>HISTORY</b></h1><br>
-                    <span>CIMSA was officially established in May 6, 2001 by some medical students from various city of Indonesia based on the inclination for an organization that based on ongoing activities; utilize the developing technology, with internationally standard programs to support medical students in Indonesia CIMSA held its first General Assembly at May 11-13, 2001  and become affiliation with International Federation of Medical Students’ Associations (IFMSA) in 2002. Now, CIMSA has 27 locals spread in various Faculty of Medicine throughout Indonesia and continues to grow.</span>
+                    <span>CIMSA was officially established in May 6, 2001 by some medical students from various city of Indonesia based on the inclination for an organization that based on ongoing activities; utilize the developing technology, with internationally standard programs to support medical students in Indonesia CIMSA held its first General Assembly at May 11-13, 2001 and become affiliation with International Federation of Medical Students’ Associations (IFMSA) in 2002. Now, CIMSA has 27 locals spread in various Faculty of Medicine throughout Indonesia and continues to grow.</span>
                 </div>
             </div>
         </div>
@@ -176,7 +176,7 @@
                 </h4>
                 <br>
                 <div class="img-animated-section5">
-                    <a class="twitter-timeline img-animated-section5" href="https://twitter.com/cimsaunand" data-width="400" data-height="400">Tweets by cimsaunand</a>
+                    <a class="twitter-timeline img-animated-section5" href="https://twitter.com/cimsaunand" data-width="400" data-height="440">Tweets by cimsaunand</a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -185,10 +185,15 @@
                 </h4>
                 <br>
                 <div class="img-animated-section5">
-                    <div class="fb-page" data-href="https://www.facebook.com/cimsafkunand/" data-tabs="timeline" data-width="400" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-                        <blockquote cite="https://www.facebook.com/cimsafkunand/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cimsafkunand/">CIMSA UNAND</a></blockquote>
+                    <div class="fb-post" data-href="https://www.facebook.com/cimsa.unand/posts/3484053138315715" data-show-text="true" data-width="400" data-height="400">
+                        <blockquote cite="https://www.facebook.com/cimsa.unand/posts/3484053138315715" class="fb-xfbml-parse-ignore">
+                            <p>[CIMSVOICE EPS. 6]⁣⁣
+                                ⁣⁣
+                                Halo, CIMSA!⁣⁣
+                                ⁣⁣
+                                CIMSA-BEM KM FK Unand baru saja merilis episode baru dari CIMSVOICE bersama...</p>Dikirim oleh <a href="https://www.facebook.com/cimsa.unand">Cimsa Unand</a> pada&nbsp;<a href="https://www.facebook.com/cimsa.unand/posts/3484053138315715">Sabtu, 05 Desember 2020</a>
+                        </blockquote>
                     </div>
-
                 </div>
             </div>
             <div class="col-md-4">
@@ -197,7 +202,7 @@
                 </h4>
                 <br>
                 <div class="img-animated-section5">
-                    <iframe width="400" height="400" src="https://www.youtube.com/embed/Q-sQmRcjicU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="400" height="435" src="https://www.youtube.com/embed/Q-sQmRcjicU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
             {{-- <div class="col-md-4">

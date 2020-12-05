@@ -30,8 +30,7 @@
                 <span>GOALS</span><br>1. To improve awareness and knowledge of the community about public health. <br>
                 2. To trigger Indonesian medical student's awareness about public health related issues. <br> 3. To facilitate Indonesian medical student’s activity in public health to provide opportunities for medical student's to be involved in a real work concerning public health.<br>
                 4. To create programs (of public health) that are fit with Indonesia's current conditions and needs. <br> 5. To coorporate and to build partnership with governmental organization and/or non-governmental organization.<br><br>
-                <span>MISSION</span><br>"To promote Human Rights and Peace, as future health care professionals we work towards empowering and improving the health
-                    refugees and other vulnerable people."<br><br>
+                <span>MISSION</span><br>"To promote the development of medical students in Indonesia regarding Public Health issues through an international and national sharing knowledge network, projects management, community-based learning, capacity building, advocacy, exchanges placements and access to external learning opportunities."<br><br>
             </p>
         </div>
     </section>

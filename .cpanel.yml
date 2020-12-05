@@ -4,4 +4,3 @@ deployment:
     - export DEPLOYPATH=/home/cimsauna/public_html
     - /bin/mv $(pwd)/public/* $DEPLOYPATH
     - /bin/mv $(pwd)/public/.* $DEPLOYPATH
-    - /bin/rmdir $(pwd)/public

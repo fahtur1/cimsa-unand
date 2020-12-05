@@ -32,10 +32,10 @@
             vulnerable people.<br><br>
             <span>GOALS</span><br>1. To provide education in the field of human rights an peace. <br> 2. To increase of awareness and educate prospective
             health professionals in the field of health systems refugees, displaced persons, and other vulnerable people. <br>
-            3. To establish a culture of peace, conflict prevention, and respect for human rights.<br> 4. To be ready to act order to Achieve a solution
-            to Achieve peace over conflicts. <br> 5. To establish and develop multidisciplinary cooperation Relating to Scorp work fields. <br>
-            6. To Participate, both within the local, national and international, in the field of Refugees/IDPS, displaced people, and other vulnerable people.
-            <br>7. To coorporate with NGO's (Non Government Organizations) to create projects or activities related to Scorp work fields<br><br>
+            3. To establish a culture of peace, conflict prevention, and respect for human rights.<br> 4. To be ready to act order to achieve a solution
+            to achieve peace over conflicts. <br> 5. To establish and develop multidisciplinary cooperation relating to SCORP work fields. <br>
+            6. To participate, both within the local, national and international, in the field of Refugees/IDPS, displaced people, and other vulnerable people.
+            <br>7. To coorporate with NGO's (Non Government Organizations) to create projects or activities related to SCORP work fields<br><br>
             <span>MISSION</span><br>"To promote Human Rights and Peace, as future health care professionals we work towards empowering and improving the health
                 refugees and other vulnerable people."<br><br>
         </p>
