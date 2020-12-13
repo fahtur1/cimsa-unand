@@ -112,36 +112,39 @@
             <div class="card-deck">
                 <div class="col-md-4 col-xs-12">
                     <div class="card img-animated-section4" style="width: 20rem;">
-                        <img class="card-img-top" src="{{ $articles->image }}" alt="Card image cap" style="height: 256px;">
-                        <span class="img-preview fade-caption">
-                            {{ substr(strip_tags($articles->content),0,80).'...' }}
-                            <a href="{{ route('articles.detail', $articlesid) }}">read more</a></p>
-                        </span>
-                        <div class="card-body">
-                            <h4 class="card-text">{{ $articles->title }}</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-xs-12">
-                    <div class="card img-animated-section4" style="width: 20rem;">
-                        <img class="card-img-top" src="{{ $activities->image }}" alt="Card image cap" style="height: 256px">
+                        <img class="card-img-top" src="{{ $activities->image }}" alt="Card image cap" style="height: 350px;object-fit: cover;">
                         <span class="img-preview fade-caption">
                             {{ substr(strip_tags($activities->content),0,80).'...' }}
                             <a href="{{ route('activity.detail', $activitiesid) }}">read more</a></p>
                         </span>
                         <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Recent Activity :</h5>
                             <h4 class="card-text">{{ $activities->title }}</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-12">
                     <div class="card img-animated-section4" style="width: 20rem;">
-                        <img class="card-img-top" src="{{ $catalogs->image }}" alt="Card image cap" style="height: 256px;">
+                        <img class="card-img-top" src="{{ $articles->image }}" alt="Card image cap" style="height: 350px; object-fit: cover;">
+                        <span class="img-preview fade-caption">
+                            {{ substr(strip_tags($articles->content),0,80).'...' }}
+                            <a href="{{ route('articles.detail', $articlesid) }}">read more</a></p>
+                        </span>
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Recent Article :</h5>
+                            <h4 class="card-text">{{ $articles->title }}</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="card img-animated-section4" style="width: 20rem;">
+                        <img class="card-img-top" src="{{ $catalogs->image }}" alt="Card image cap" style="height: 350px; object-fit: cover;">
                         <span class="img-preview fade-caption fr-view">
                             {{substr(strip_tags($catalogs->description),0,80).'...'}}
                             <a href="{{url('/catalogs')}}">read more</a></p>
                         </span>
                         <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Recent Catalog :</h5>
                             <h4 class="card-text">{{ $catalogs->name }}</h4>
                         </div>
                     </div>

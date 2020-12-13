@@ -57,7 +57,7 @@ class activitiesController extends Controller
         $data = [
             'title' => 'ACTIVITIES'
         ];
-        $activities = activities::orderBy('updated_at', 'desc')->paginate(3);
+        $activities = activities::orderBy('created_at', 'desc')->paginate(3);
         $id = [];
 
         foreach ($activities as $index => $activity) {
