@@ -7,7 +7,7 @@
         <div class="container text-center" style="margin-top: 20px;">
             <h1 class="display-3 img-animated-section2"><b>{{ $title }}</b></h1>
             <br>
-            <p class="lead">Sexual & Reproductive Health and Rights Including HIV & AIDS</p>
+            <p class="lead">Standing Committee on Sexual & Reproductive Health including HIV/AIDS</p>
         </div>
     </div>
 </header>
@@ -20,15 +20,15 @@
     <div class="content-about img-animated-section2">
         <h4 class="lead" style="color:#d00a2c;">
             <span>
-                SCORA ( Sexual & Reproductive Health and Rights Including HIV & AIDS )
+                SCORA ( Standing Committee on Sexual & Reproductive Health including HIV/AIDS )
             </span>
         </h4>
         <hr>
         <p class="text-justify">
             <div class="row">
                 <div class="col-md-7 text-justify">
-                    <span>HISTORY</span><br>SCORA (Sexual & Reproductive Health and Rights Including HIV & AIDS) exists because so many people are living with HIV and AIDS yet very few know the facts about the aforementioned disease. SCORA is engaged in the field of sexual and reproductive health, HIV/AIDS, maternal health and many other reproductive issues including gender-based violence, sexuality, and gender identity, as well as sex education for teenager.<br><br>
-                    SCORA (Sexual & Reproductive Health and Rights Including HIV & AIDS) exists because so many people are living with HIV and AIDS yet very few know the facts about the aforementioned disease. SCORA is engaged in the field of sexual and reproductive health, HIV/AIDS, maternal health and many other reproductive issues including gender-based violence, sexuality, and gender identity, as well as sex education for teenager.
+                    <span>HISTORY</span><br>SCORA (Standing Committee on Sexual & Reproductive Health including HIV/AIDS) exists because so many people are living with HIV and AIDS yet very few know the facts about the aforementioned disease. SCORA is engaged in the field of sexual and reproductive health, HIV/AIDS, maternal health and many other reproductive issues including gender-based violence, sexuality, and gender identity, as well as sex education for teenager.<br><br>
+                    SCORA (Standing Committee on Sexual & Reproductive Health including HIV/AIDS) exists because so many people are living with HIV and AIDS yet very few know the facts about the aforementioned disease. SCORA is engaged in the field of sexual and reproductive health, HIV/AIDS, maternal health and many other reproductive issues including gender-based violence, sexuality, and gender identity, as well as sex education for teenager.
                 </div>
                 <div class="col-md-5">
                     <img class="img-fluid" style="object-fit: contain;" src="/img/sco/bg/scora.png" alt="">
