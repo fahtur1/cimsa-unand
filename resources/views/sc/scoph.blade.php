@@ -2,37 +2,43 @@
 
 
 @section('content')
-    <header class="header">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container text-center" style="margin-top: 20px;">
-                <h1 class="display-3 img-animated-section2"><b>SCOPH</b></h1>
-                <br>
-                <p class="lead">Public Health</p>
-            </div>
+<header class="header">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center" style="margin-top: 20px;">
+            <h1 class="display-3 img-animated-section2"><b>SCOPH</b></h1>
+            <br>
+            <p class="lead">Public Health</p>
         </div>
-    </header>
+    </div>
+</header>
 
-    <section class="section-2 section-about container">
-        <div class="image-about img-animated-section2" style="text-align: center;">
-            <img src="{{ asset('img/sco/scoph.png') }}" 
-            alt="CIMSA LOGO" style="width: 100%; height: auto;" class="img-responsive">
-        </div>
-        <br>
-        <div class="content-about img-animated-section2">
-            <h4 class="lead" style="color:#d00a2c;">
-                <span>
-                    SCOPH ( Standing Commitee on Public Health )
-                </span>
-            </h4>
-            <hr>
-            <p class="text-justify">
-                <span>HISTORY</span><br>SCOPH, stands for Standing Commitee on Public Health works through health promotion and education as well as disease’s prevention to the society. SCOPH focuses on Non-Communicable Disease, Universal Health Coverage, Social & Environmental Determinants of Health, and many more. SCOPH CIMSA has initiated several programs that aim to increase the health quality within the society. These programs have been done through social media campaigns, health services, seminars, and other events that were done by medical students. SCOPH has annual projects such as Indonesian Disease Today, World Diabetes Day, and World No Tobacco Day.<br><br>
-                <span>GOALS</span><br>1. To improve awareness and knowledge of the community about public health. <br>
-                2. To trigger Indonesian medical student's awareness about public health related issues. <br> 3. To facilitate Indonesian medical student’s activity in public health to provide opportunities for medical student's to be involved in a real work concerning public health.<br>
-                4. To create programs (of public health) that are fit with Indonesia's current conditions and needs. <br> 5. To coorporate and to build partnership with governmental organization and/or non-governmental organization.<br><br>
-                <span>MISSION</span><br>"To promote the development of medical students in Indonesia regarding Public Health issues through an international and national sharing knowledge network, projects management, community-based learning, capacity building, advocacy, exchanges placements and access to external learning opportunities."<br><br>
-            </p>
-        </div>
-    </section>
-    @include('login')
+<section class="section-2 section-about container">
+    <div class="image-about img-animated-section2" style="text-align: center;">
+        <img src="{{ asset('img/sco/scoph.png') }}" alt="CIMSA LOGO" style="width: 100%; height: auto;" class="img-responsive">
+    </div>
+    <br>
+    <div class="content-about img-animated-section2">
+        <h4 class="lead" style="color:#d00a2c;">
+            <span>
+                SCOPH ( Standing Commitee on Public Health )
+            </span>
+        </h4>
+        <hr>
+        <p class="text-justify">
+            <div class="row">
+                <div class="col-md-7 text-justify">
+                    <span>HISTORY</span><br>SCOPH, stands for Standing Commitee on Public Health works through health promotion and education as well as disease’s prevention to the society. SCOPH focuses on Non-Communicable Disease, Universal Health Coverage, Social & Environmental Determinants of Health, and many more. SCOPH CIMSA has initiated several programs that aim to increase the health quality within the society. These programs have been done through social media campaigns, health services, seminars, and other events that were done by medical students. SCOPH has annual projects such as Indonesian Disease Today, World Diabetes Day, and World No Tobacco Day.
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid" style="object-fit: contain;" src="/img/sco/bg/scoph.png" alt="">
+                </div>
+            </div>
+            <span>GOALS</span><br>1. To improve awareness and knowledge of the community about public health. <br>
+            2. To trigger Indonesian medical student's awareness about public health related issues. <br> 3. To facilitate Indonesian medical student’s activity in public health to provide opportunities for medical student's to be involved in a real work concerning public health.<br>
+            4. To create programs (of public health) that are fit with Indonesia's current conditions and needs. <br> 5. To coorporate and to build partnership with governmental organization and/or non-governmental organization.<br><br>
+            <span>MISSION</span><br>"To promote the development of medical students in Indonesia regarding Public Health issues through an international and national sharing knowledge network, projects management, community-based learning, capacity building, advocacy, exchanges placements and access to external learning opportunities."<br><br>
+        </p>
+    </div>
+</section>
+@include('login')
 @endsection

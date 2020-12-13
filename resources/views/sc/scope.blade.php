@@ -25,10 +25,17 @@
         </h4>
         <hr>
         <p class="text-justify">
-            <span>HISTORY</span><br>SCOPE (Standing Commitee on Professional Exchange) facilitates all medical students who want to have an experience
-            in medical fields abroad through Professional Exchange program. The Professional Exchange program is a full educational program offering
-            clerkships to medical students abroad. Annually, more than 13.000 students from 90 countries travel around the world to discover new health
-            systems, new culture, and to enhance their global health and intercultural understanding.<br><br>
+            <div class="row">
+                <div class="col-md-7 text-justify">
+                    <span>HISTORY</span><br>SCOPE (Standing Commitee on Professional Exchange) facilitates all medical students who want to have an experience
+                    in medical fields abroad through Professional Exchange program. The Professional Exchange program is a full educational program offering
+                    clerkships to medical students abroad. Annually, more than 13.000 students from 90 countries travel around the world to discover new health
+                    systems, new culture, and to enhance their global health and intercultural understanding.
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid" style="object-fit: contain;" src="/img/sco/bg/scope.png" alt="">
+                </div>
+            </div>
             <span>GOALS</span><br>
             1. To increase the mobility and to widen the horizon of medical students worldwide. <br>
             2. To provide medical students with the possibility to experience healthcare in another culture with different health and education systems, and to learn how differences in culture
