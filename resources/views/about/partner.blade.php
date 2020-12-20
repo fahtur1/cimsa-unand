@@ -12,31 +12,37 @@
 <section class="section-2 container">
     <div class="row">
         <div class="col-md-4">
-            <a href="{{ url('https://instagram.com/jooksjuicebar/') }}" target="_blank">
+            <a href="{{ url('https://hariansinggalang.co.id') }}" target="_blank">
                 <img src=" {{ asset('img/official-partners/singgalang.png') }}" alt="JOOKS LOGO" style="width: 100%; height: auto;">
             </a>
         </div>
         <div class="col-md-4">
-            <a href="{{ url('http://malala-tours.com/') }}" target="_blank">
+            <a href="{{ url('https://instagram.com/nirwanaclean/') }}" target="_blank">
                 <img src=" {{ asset('img/official-partners/nirwana.png') }}" alt="MALALA LOGO" style="width: 100%; height: auto;">
             </a>
         </div>
         <div class="col-md-4">
-            <a href="#">
+            <a href="{{ url('https://instagram.com/boycopycentergroup/') }}" target="_blank">
                 <img src="{{ asset('img/official-partners/bcc.png') }}" alt="BCC LOGO" style="width: 100%; height: auto;">
             </a>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex align-items-center">
             <a href="{{ url('http://starradiopadang.com/') }}" target="_blank">
                 <img src=" {{ asset('img/official-partners/starradio.jpg') }}" alt="STAR RADIO" style="width: 100%; height: auto;">
             </a>
         </div>
         <div class="col-md-4">
-            <a href="{{ url('https://instagram.com/_thekafe/') }}" target="_blank">
+            <a href="{{ url('https://instagram.com/claytoncafe56/') }}" target="_blank">
+                <img src=" {{ asset('img/official-partners/clayton.png') }}" alt="THE KAFE LOGO" style="width: 100%; height: auto;">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="{{ url('https://instagram.com/hoyabakery_padang/') }}" target="_blank">
                 <img src=" {{ asset('img/official-partners/hoya.png') }}" alt="THE KAFE LOGO" style="width: 100%; height: auto;">
             </a>
         </div>
     </div>
 </section>
 @include('login')
+
 @endsection

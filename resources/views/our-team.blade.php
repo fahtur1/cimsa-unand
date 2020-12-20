@@ -28,7 +28,7 @@
                 <a href="{{ asset('img/our-team-2/2.jpg') }}" data-fancybox="gallery" data-caption="Official Team">
                     <img src="{{ asset('img/our-team-2/2.jpg') }}" alt="Official Team" class="rounded mx-auto d-block img-thumbnail image-ot">
                     <div class="overlay">
-                        <div class="text-ot text-center">Official & Local <br> Committees Team</div>
+                        <div class="text-ot text-center">Official Team & <br> Local Committees</div>
                     </div>
                 </a>
             </div>
@@ -171,7 +171,7 @@
                 <a href="{{ asset('img/our-team-2/14.jpg') }}" data-fancybox="gallery" data-caption="Admin Team">
                     <img src="{{ asset('img/our-team-2/14.jpg') }}" alt="Admin Team" class="rounded mx-auto d-block img-thumbnail image-ot">
                     <div class="overlay">
-                        <div class="text-ot">LCROP</div>
+                        <div class="text-ot">LCORP</div>
                     </div>
                 </a>
             </div>
